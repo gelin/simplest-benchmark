@@ -15,6 +15,7 @@ public class Benchmark {
     public static void main(String[] args) throws IOException {
         if (args.length < 1) {
             System.err.println("Usage: java Benchmark input.file");
+            System.exit(1);
         }
 
         Benchmark benchmark = new Benchmark();
